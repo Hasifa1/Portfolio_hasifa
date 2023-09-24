@@ -1,0 +1,115 @@
+header{
+    
+    display: flex;
+    position: fixed;
+    background-color: #290ef7;
+    justify-content: right;
+    width: 100%;
+    top:0%;
+}
+nav ul,#project_section ul,#contact_section ul,#about_section ul{
+    list-style-type: none;
+    display: flex ;
+    padding: 10px;
+    
+}
+
+nav li,#project_section li,#contact_section li,#about_section li{
+    margin: 0 2rem;
+    font-size: large;
+}
+nav a,#project_section a ,#contact_section a{
+    text-decoration: none;
+    color: #efedf0;   
+}
+nav a:hover,#project_section a:hover, #contact_section a:hover{
+    color:rgb(19, 211, 25);
+}
+
+p,h1{
+    text-align: center;
+    color: aliceblue;
+}
+#about_section{
+    background-image: url(bgimage.jpeg);
+    background-size: cover; 
+    background-position: center;
+    }
+#about_section ul{
+    justify-content: center;
+}
+#about_section h1{
+    color: rgb(165, 238, 18);
+
+}
+.sw_img{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+#edu_section h1{
+    background-color: aqua;
+    color: blue;
+    }
+#edu_section{
+    background: linear-gradient(60deg,#e4f755 0%, rgb(46, 237, 227) 100%);
+    }
+#edu_section h2{
+    margin: auto;
+    color: rgb(220, 78, 13);
+    }
+ul{
+    list-style-type: none;
+}
+#project_section{
+    background: linear-gradient(60deg,#17e3f1 0%, rgb(248, 6, 115) 100%);
+    }
+#contact_section{
+    background: linear-gradient(60deg,#5517f110 0%, rgb(248, 6, 115) 100%);
+        }
+#contact_section ul{
+    justify-content: center;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+form button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.contact-info {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.contact-info p {
+    margin-bottom: 10px;
+}
